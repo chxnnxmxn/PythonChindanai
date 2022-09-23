@@ -1,0 +1,25 @@
+Assignmentscores = int(input('enter Assignmentscores'))
+Midtermscores = int(input('enter Midtermscores'))
+Finalscores = int(input('enter Finalscores'))
+Totalscores = Assignmentscores + Midtermscores + Finalscores
+
+if Totalscores >= 80:
+    print('4')
+elif Totalscores >= 75:
+    print('3.5')
+elif Totalscores >= 70:
+    print('3')
+elif Totalscores >= 65:
+    print('2.5')
+elif Totalscores >= 60:
+    print('2')
+elif Totalscores >= 55:
+    print('1.5')
+elif Totalscores >= 50:
+    print('1')
+elif Totalscores >= 0:
+    print('0')
+elif str(input('ร')):
+    print('W')
+else:
+    print('error')
